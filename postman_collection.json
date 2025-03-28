@@ -11,7 +11,7 @@
                     "name": "Register User",
                     "request": {
                         "method": "POST",
-                        "url": "http://localhost:3000/api/auth/register",
+                        "url": "https://querysimulator.onrender.com/api/auth/register",
                         "header": [
                             {
                                 "key": "Content-Type",
@@ -28,7 +28,7 @@
                     "name": "Login User",
                     "request": {
                         "method": "POST",
-                        "url": "http://localhost:3000/api/auth/login",
+                        "url": "https://querysimulator.onrender.com/api/auth/login",
                         "header": [
                             {
                                 "key": "Content-Type",
@@ -50,7 +50,7 @@
                     "name": "Process Query",
                     "request": {
                         "method": "POST",
-                        "url": "http://localhost:3000/api/query",
+                        "url": "https://querysimulator.onrender.com/api/query",
                         "header": [
                             {
                                 "key": "Content-Type",
@@ -71,7 +71,7 @@
                     "name": "Explain Query",
                     "request": {
                         "method": "POST",
-                        "url": "http://localhost:3000/api/explain",
+                        "url": "https://querysimulator.onrender.com/api/explain",
                         "header": [
                             {
                                 "key": "Content-Type",
@@ -92,7 +92,7 @@
                     "name": "Validate Query",
                     "request": {
                         "method": "POST",
-                        "url": "http://localhost:3000/api/validate",
+                        "url": "https://querysimulator.onrender.com/api/validate",
                         "header": [
                             {
                                 "key": "Content-Type",
@@ -115,7 +115,7 @@
             "name": "Health Check",
             "request": {
                 "method": "GET",
-                "url": "http://localhost:3000/health"
+                "url": "https://querysimulator.onrender.com/health"
             }
         }
     ]

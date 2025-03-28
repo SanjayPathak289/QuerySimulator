@@ -43,28 +43,28 @@ A Postman collection is included in the root directory. Import `postman_collecti
 
 1. Register a new user to get an API key:
    ```bash
-   curl -X POST http://localhost:3000/api/auth/register \
+   curl -X POST https://querysimulator.onrender.com/api/auth/register \
      -H "Content-Type: application/json" \
      -d '{"username":"testuser","email":"testuser@example.com","password":"password123"}'
    ```
 
 2. Process a query using your API key:
    ```bash
-   curl -X POST http://localhost:3000/api/query \
+   curl -X POST https://querysimulator.onrender.com/api/query \
      -H "Content-Type: application/json" \
      -H "x-api-key: YOUR_API_KEY_HERE" \
      -d '{"query":"Show me all customers in the North region","dataSource":"default"}'
    ```
 3. Explain a query:
    ```bash
-   curl -X POST http://localhost:3000/api/explain \
+   curl -X POST https://querysimulator.onrender.com/api/explain \
      -H "Content-Type: application/json" \
      -H "x-api-key: YOUR_API_KEY_HERE" \
      -d '{"query":"Show me all customers in the North region","dataSource":"default"}'
    ```
 4. Validate a query:
    ```bash
-   curl -X POST http://localhost:3000/api/validate \
+   curl -X POST https://querysimulator.onrender.com/api/validate \
      -H "Content-Type: application/json" \
      -H "x-api-key: YOUR_API_KEY_HERE" \
      -d '{"query":"How many orders were placed in 2024?","dataSource":"default"}'
