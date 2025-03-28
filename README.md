@@ -10,7 +10,7 @@
 
 ## API Url
 
-   `https://querysimulator.onrender.com` \n
+   `https://querysimulator.onrender.com`  
    Render sleeps the Url if there is no activity after 30 minutes. If user hit the api url during inactivity, it takes 30s to run the url by render.
    
 ## API Endpoints
