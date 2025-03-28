@@ -8,6 +8,10 @@
 - API key authentication
 - Simple in-memory storage
 
+## API Url
+
+   `https://querysimulator.onrender.com`
+   
 ## API Endpoints
 
 - `POST /api/query` - Process natural language query
